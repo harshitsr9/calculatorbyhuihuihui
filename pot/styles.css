@@ -1,0 +1,158 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the navigation bar */
+  nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Style the sections */
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Style the project boxes */
+  .project {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3 {
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  
+    .project {
+      margin: 20px 0;
+    }
+  }
+  
+
+  /* ... Previous CSS code ... */
+
+/* Style home content */
+.home-content {
+  display: flex;
+  align-items: center;
+}
+
+.home-content img {
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+/* Style contact content */
+.contact-content {
+  display: flex;
+  align-items: center;
+}
+
+.contact-photo {
+  margin-right: 20px;
+}
+
+.contact-photo img {
+  max-width: 100px;
+}
+
+/* ... Media queries and other styles ... */
+
+
+/* Set the background image for the entire body */
+body {
+  background-image: url("bbg.jpeg");/* Replace with your image file name */
+  background-size: 1500px 800px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+/* ... Other existing CSS code ... */
+/* Style the skills section */
+.w3-padding-16 {
+  padding: 16px;
+}
+
+.w3-text-light-grey {
+  color: #ddd;
+}
+
+.w3-wide {
+  font-weight: bold;
+}
+
+.w3-white {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.w3-dark-grey {
+  background-color: #333;
+  height: 28px;
+  width: 0; /* Will be adjusted using inline style */
+}
+
+/* Style the statistics section */
+.w3-row {
+  display: flex;
+  justify-content: center;
+}
+
+.w3-quarter {
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+}
+
+.w3-xlarge {
+  font-size: 24px;
+}
+
+/* Style the button */
+.w3-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ddd;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Add icon to button */
+.fa-download {
+  margin-right: 8px;
+}
